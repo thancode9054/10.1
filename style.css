@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: rgb(29, 28, 28);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  top: 0;
+  width: 100%;
+  position:fixed;
+}
+.logo {
+  padding-right: 700px;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: system-ui;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  font-family: system-ui;
+}
+a:hover {
+  color: rgb(0, 187, 255);
+}
+#featured-content hr {
+  margin: 30px 0;
+}
+.title {
+  font-weight: 900;
+  font-size: 50px;
+}
+.title-bottom {
+  font-size: 30px;
+  color: rgb(176, 177, 179);
+  margin-bottom: 20px;
+}
+.intro {
+  margin-top: 20px;
+}
+#featured-content {
+  margin: 100px 30px 30px 30px;
+
+  font-family: system-ui;
+}
+#services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: system-ui;
+  margin-top: 20px;
+  gap: 50px;
+  margin: 20px;
+}
+.child {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 430px;
+  background-color: rgb(0, 187, 255);
+  padding: 20px;
+}
+.services-title {
+  text-align: center;
+  font-size: 30px;
+}
+.services-pr {
+  text-align: center;
+}
+button {
+  margin-left: 50px;
+  height: 42px;
+  width: 247px;
+  background-color: rgb(2, 78, 106);
+  color: white;
+}
+#additional-infor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui;
+}
+.title-additional-left {
+  font-size: 30px;
+  color: rgb(176, 177, 179);
+}
+img {
+  height: 128px;
+  width: 128px;
+  margin-right: 30px;
+}
+.img-and-content {
+  display: flex;
+}
+#additional-infor-left {
+  width: 700px;
+ 
+}
+.img-and-content {
+  margin: 30px 0;
+}
+
+.seperate {
+  height: 500px;
+  border: 1px solid black;
+}
+#additional-infor-right {
+  width: 700px;
+ 
+  height: 576px;
+  margin-left:40px;
+}
+.title-additional-right{
+  font-size: 30px;
+  color: rgb(176, 177, 179);
+}
+.title-additional-right-add{
+  font-size: 20px;
+  color: rgb(176, 177, 179);
+  margin:10px 0;
+}
+.img-right-content img{
+  width: 602px;
+  height: 263px;
+  margin: 30px 0;
+}
+.img-right-content a{
+  color:rgb(0, 187, 255) ;
+  font-size:20px ;
+  font-weight: 300;
+  padding-top: 50px;
+}
+.img-right-content p{
+  margin-bottom:20px ;
+}
+footer{
+  margin:20px 40px;
+  color:rgb(176, 177, 179) ;
+  font-family: system-ui;
+  
+}
